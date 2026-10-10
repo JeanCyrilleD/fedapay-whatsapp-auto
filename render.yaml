@@ -1,0 +1,19 @@
+services:
+  - type: web
+    name: fedapay-whatsapp-auto
+    env: python
+    buildCommand: "echo 'no build needed'"
+    startCommand: "python server.py"
+    envVars:
+      - key: PORT
+        value: 10000
+      - key: EXPECTED_AMOUNT
+        value: 5000
+      - key: GUIDE_PDF_URL
+        value: https://muse.ai/files/1437344649454247/1737887010844017/7xx8xpxm4jm3wtljmxrjpuox/IA_DETOURNEE_Guide_2026-10-09.pdf
+      - key: FEDAPAY_WEBHOOK_SECRET
+        sync: false
+      - key: WHATSAPP_TOKEN
+        sync: false
+      - key: WHATSAPP_PHONE_ID
+        sync: false
