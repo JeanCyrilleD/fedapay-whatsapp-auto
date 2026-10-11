@@ -17,3 +17,13 @@ services:
         sync: false
       - key: WHATSAPP_PHONE_ID
         sync: false
+      - key: WHATSAPP_VERIFY_TOKEN
+        value: jarvis_verify_2026
+      - key: META_API_KEY
+        sync: false
+      - key: TEASER_PDF_URL
+        value: https://muse.ai/files/1437344649454247/1737887010844017/7xx8xpxm4jm3wtljmxrjpuox/TEASER_IA_DETOURNEE_apercu.pdf
+      - key: FEDAPAY_LINK_FR
+        value: https://me.fedapay.com/I72O5AQz
+      - key: OWNER_PHONE
+        value: 22671160238
